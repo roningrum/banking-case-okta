@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case1</title>
+</head>
+
+<body>
+    <h1>Aplikasi Kalkulator Bunga Tabungan Nasabah</h1>
+    <h2>Silakan simulasikan sesuai saving</h2>
+
+    <div class="form-simulasi">
+        <label for="nama" name="nama"> Nama </label>
+        <input type="text" id="nama" name="nama" />
+        <br>
+        <label for="rekening" name="rekening"> Rekening </label>
+        <input type="text" id="rekening" name="rekening" />
+        <br>
+        <button onclick="addCustomer(document.getElementById('nama').value, document.getElementById('rekening').value)"> Test</button>
+    </div>
+
+    <div id="result"></div>
+
+    <script src="banking-count-case.js"></script>
+
+</body>
+
+</html>
